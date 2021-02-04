@@ -2,51 +2,34 @@
 
 > <%= description %>
 
-- version: <%= version %>
-- author: <%= author %>
-- email: <%= email %>
-- url: <%= url %>
-- github: <%= github %>
-- features: <%= features %>
-- year: <%= year %>
-- upper: <%= upper(name) %>
-
-# <%= name %>
-
-> <%= description %>
-
 ## Endpoints
 
 ### GET `/api`
 
-Get user's repositories.
+Combine an email address.
 
 ```shell
-$ curl https://caz.vercel.app/templates?owner=zce
+$ curl https://<%= name %>.vercel.app/api
 ```
 
-#### Params
+#### Parameters
 
-- `owner`: github user or organization name, alias: `username`, default: `'caz-templates'`
+- `name`: email user name, alias: `username`
+- `host`: email host, default: `'zce.me'`
 
 #### Response Type
 
-```typescript
-interface Template {
-  name: string
-  owner: string
-  fullname: string
-  description: string
-  updated: string
+```json
+{
+  "name": "...",
+  "email": "..."
 }
-
-type Result = Template[]
 ```
 
 ## Related
 
-- [zce/caz](https://github.com/zce/caz) - A simple yet powerful template-based Scaffolding tools for my personal productivity.
+<!-- TODO: related projects -->
 
 ## License
 
-[MIT](LICENSE) &copy; [zce](https://zce.me)
+[MIT](LICENSE) &copy; [<%= author %>](<%= url %>)
