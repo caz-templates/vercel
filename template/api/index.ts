@@ -1,6 +1,6 @@
 import { VercelRequest, VercelResponse } from '@vercel/node'
 
-export default async (req: VercelRequest, res: VercelResponse): Promise<void> => {
+export default async (req: VercelRequest, res: VercelResponse): Promise<any> => {
   const { name, host = 'zce.me' } = req.query // from querystring or pathinfo
   // const { name, host = 'zce.me' } = req.body // from request body
 
