@@ -72,9 +72,6 @@ module.exports = {
       ]
     }
   ],
-  // TODO: enable install by npm / yarn
-  install: 'npm',
-  // TODO: enable git init
   init: true,
   setup: async ctx => {
     ctx.config.install = ctx.answers.install && ctx.answers.pm
@@ -89,7 +86,7 @@ module.exports = {
     if (ctx.config.install === false) {
       console.log(chalk`  $ {cyan npm install} {gray # or yarn}`)
     }
-    console.log(chalk`  $ {cyan ${ctx.config.install ? ctx.config.install : 'npm'} test}`)
+    console.log(chalk`  $ {cyan ${ctx.config.install ? ctx.config.install : 'npm'} run develop}`)
     console.log('\nHappy hacking :)\n')
   }
 }
