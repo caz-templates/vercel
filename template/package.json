@@ -1,0 +1,27 @@
+{
+  "name": "<%= name %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
+  "keywords": [
+    "<%= name %>",
+    "api",
+    "zce"
+  ],
+  "repository": "<%= github %>/<%= name %>",
+  "license": "MIT",
+  "author": "<%= author %> <<%= email %>> (<%= url %>)",
+  "scripts": {
+    "lint": "ts-standard --fix",
+    "develop": "npx vercel dev"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vercel/node": "1.9.0",
+    "ts-standard": "10.0.0"
+  }
+}
