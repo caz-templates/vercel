@@ -9,10 +9,10 @@
 
 ## Usage
 
-Prerequisites: [Node.js](https://nodejs.org) (>= 10.17, 12.10 preferred), [npm](https://www.npmjs.com) (>= 6.x) or [yarn](https://yarnpkg.com) (>= 1.20) and [Git](https://git-scm.com).
+Prerequisites: [Node.js](https://nodejs.org) (>= 10.12, 14.16 preferred), [npm](https://www.npmjs.com) (>= 6.x) or [yarn](https://yarnpkg.com) (>= 1.20) and [Git](https://git-scm.com).
 
 ```shell
-# create vercel apps through this
+# create vercel apps by this template
 $ npx caz vercel my-vercel
 
 # enter generated directory
@@ -28,7 +28,7 @@ Or use globally installed CAZ:
 # Install the `caz` globally
 $ npm install caz --global # or `yarn global add caz`
 
-# create vercel apps through this
+# create vercel apps by this template
 $ caz vercel my-vercel
 
 # enter generated directory
@@ -37,6 +37,10 @@ $ cd my-vercel
 # running test if you choose test features
 $ npm test # or `yarn test`
 ```
+
+## Related
+
+- [zce/caz](https://github.com/zce/caz) - A simple yet powerful template-based Scaffolding tools.
 
 ## Contributing
 
