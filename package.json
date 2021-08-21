@@ -39,11 +39,11 @@
     ]
   },
   "dependencies": {
-    "@vercel/node": "1.11.1",
+    "@vercel/node": "1.12.1",
     "ts-standard": "10.0.0"
   },
   "devDependencies": {
-    "caz": "0.7.0",
+    "caz": "0.8.0",
     "jest": "27.0.6",
     "standard": "16.0.3"
   }
