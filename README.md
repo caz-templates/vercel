@@ -60,7 +60,7 @@ $ npm test # or `yarn test`
 
 [travis-img]: https://img.shields.io/travis/com/caz-templates/vercel
 [travis-url]: https://travis-ci.com/caz-templates/vercel
-[dependency-img]: https://img.shields.io/librariesio/release/github/caz-templates/vercel
+[dependency-img]: https://img.shields.io/librariesio/github/caz-templates/vercel
 [dependency-url]: https://github.com/caz-templates/vercel
 [style-img]: https://img.shields.io/badge/code_style-standard-brightgreen
 [style-url]: https://standardjs.com
