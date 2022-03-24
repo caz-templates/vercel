@@ -2,7 +2,6 @@
 
 [![Build Status][travis-img]][travis-url]
 [![Dependency Status][dependency-img]][dependency-url]
-[![devDependency Status][devdependency-img]][devdependency-url]
 [![Code Style][style-img]][style-url]
 
 > A template for creating vercel apps.
@@ -61,9 +60,7 @@ $ npm test # or `yarn test`
 
 [travis-img]: https://img.shields.io/travis/com/caz-templates/vercel
 [travis-url]: https://travis-ci.com/caz-templates/vercel
-[dependency-img]: https://img.shields.io/david/caz-templates/vercel
-[dependency-url]: https://david-dm.org/caz-templates/vercel
-[devdependency-img]: https://img.shields.io/david/dev/caz-templates/vercel
-[devdependency-url]: https://david-dm.org/caz-templates/vercel?type=dev
+[dependency-img]: https://img.shields.io/librariesio/release/github/caz-templates/vercel
+[dependency-url]: https://github.com/caz-templates/vercel
 [style-img]: https://img.shields.io/badge/code_style-standard-brightgreen
 [style-url]: https://standardjs.com
